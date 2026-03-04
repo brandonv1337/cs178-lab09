@@ -5,7 +5,7 @@ REGION = "us-east-1"
 TABLE_NAME = "Songs"
 
 def get_table():
-    """Return a reference to the DynamoDB Songs table."""
+    """Return a reference to the DynamoDB Songs table.""" #
     dynamodb = boto3.resource("dynamodb", region_name=REGION)
     return dynamodb.Table(TABLE_NAME)
 
