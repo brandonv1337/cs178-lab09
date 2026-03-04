@@ -28,6 +28,8 @@ def print_movie(movie):
     print(f"  Title  : {title}")
     print(f"  Year   : {year}")
     print(f"  Ratings: {ratings}")
+    print(f"  Director: {director}")
+    print(f"  Genre: {genre}")
     print()
 
 
